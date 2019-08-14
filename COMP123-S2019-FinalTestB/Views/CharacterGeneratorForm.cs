@@ -7,8 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 
 /*
- * STUDENT NAME:
- * STUDENT ID:
+ * STUDENT NAME: Anamika Gora 
+ * STUDENT ID: 30104413
  * DESCRIPTION: This is the Character Generator  Form - the main form of the application
  */
 
@@ -45,6 +45,40 @@ namespace COMP123_S2019_FinalTestB.Views
             {
                 MainTabControl.SelectedIndex++;
             }
+        }
+
+        private void GenerateNameButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void GenerateAbilitiesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        /// <summary>
+        /// This method will load the names
+        /// </summary>
+        public void LoadNames()
+        {
+            List<String> FirstNameList = FileDialog.ReadAllLines("C: \Users\301044113\Desktop\COMP123 - S2019 - FinalTestB - master");
+            List<String> LastName = FileDialog.ReadAllLines("C:\Users\301044113\Desktop\COMP123-S2019-FinalTestB-master");
+        }
+
+
+
+        /// <summary>
+        /// This  method will randomly pick up the names from the list
+        /// </summary>
+        public void generateNAmes()
+        {
+
+            Random rdm = new Random();
+
+            String FName = FirstNameList[rdm.Next(FirstNameList.count)];
+            String LName = LastNameList[rdm.Next(LastNameList.count)];
         }
     }
 }

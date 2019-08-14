@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * STUDENT NAME:
- * STUDENT ID:
+ * STUDENT NAME: Anamika Gora
+ * STUDENT ID: 301044113
  * DESCRIPTION: This is an enum for the Character Class
  */
 

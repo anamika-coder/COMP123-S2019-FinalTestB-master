@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * STUDENT NAME:
- * STUDENT ID:
+ * STUDENT NAME: Anamika Gora
+ * STUDENT ID: 30104413
  * DESCRIPTION: This is the driver class for the application
  */
 

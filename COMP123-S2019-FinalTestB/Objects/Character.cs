@@ -31,13 +31,24 @@ namespace COMP123_S2019_FinalTestB.Objects
         public CharacterClass Class { get; set; }
         public int Level { get; set; }
 
+       
+
         // Equipment
-       public  List<Item> Inventory;
+        public  List<Item> Inventory;
+        public List<Item> FirstName;
+        public List<Item> LastName;
+
+
 
         // Constructor
        public Character()
         {
             this.Inventory = new List<Item>();
+            this.FirstName = new List<Item>();
+            this.LastName = new List<Item>();
         }
+
+        
+
     }
 }
